@@ -1,0 +1,75 @@
+body {
+    background: radial-gradient(white,#c1c1c1);
+    min-height: 100%;
+    
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    width: 400px;
+    height: 500px;
+    border: 5px double #333;
+    border-radius: 15px;
+    margin: 90px auto;
+    background: #fff;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 1px;
+    letter-spacing: 5px;
+    font-family: 'Monoton', cursive;
+    box-sizing: border-box;
+    background: linear-gradient(#fff,darkviolet);
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px dotted black;
+}
+
+li {
+    float: left;
+    width: 100%;
+    font-family: 'Audiowide', cursive;
+
+}
+
+label {
+/*    Give width:90% and try to check the box, it would hardly be able to do it as the space for checkbox is taken by label*/
+    width: 85%;
+    opacity: .9;
+    padding: 10px;
+    
+/*    Very important otherwise label would not align with checkbox */
+    float: left;
+}
+
+input[type="checkbox"] {
+/*    If position not given as relative, the box would align with label and not follow our padding and margin*/
+    position: relative;
+    top: 11px;
+    right: 12px;
+    float: right;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    opacity: .2;
+    
+}
+
+.light {
+    background: #f4e5fa;
+}
+

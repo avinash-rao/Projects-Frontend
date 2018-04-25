@@ -1,0 +1,48 @@
+body {
+    background: url("../Images/gloves-op2.jpg")
+        no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+            
+}
+
+div {
+    background-color: rgb(221, 56, 29);
+    margin: 250px auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 25px;
+/*    padding-bottom: 15px;*/
+    padding-bottom: 2px;
+    opacity: 0.8;
+    
+}
+
+h1 {
+/*    font-family: 'Bitter', serif;*/
+/*    font-size: 4em;*/
+    font-size: 75px;
+    color: #470101;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px white;
+}
+
+p {
+    font-size: 35px;
+    
+}
+
+i {
+    color: white;
+}
+
+button {
+    background-color: darkblue;
+    font-size: 2em;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    font-family: "serif";
+    border: 2px;
+    box-shadow: 2px 2px 5px black;
+}
